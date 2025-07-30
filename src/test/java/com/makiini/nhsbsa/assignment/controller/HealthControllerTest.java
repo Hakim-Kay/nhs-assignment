@@ -1,4 +1,4 @@
-package com.makiini.nhsbsa.assignment;
+package com.makiini.nhsbsa.assignment.controller;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.web.servlet.MockMvc;
 
-@WebMvcTest
+@WebMvcTest(HealthController.class)
 public class HealthControllerTest {
 
     @Autowired
