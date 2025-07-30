@@ -1,8 +1,10 @@
 [
   {
-    "technology": "NHS Legacy Systems",
-    "role": "Software Engineer",
-    "environment": "On-Prem Data Center",
+    "inputs": {
+      "technology": "NHS Legacy Systems",
+      "role": "Software Engineer",
+      "environment": "On-Prem Data Center"
+    },
     "scenario": {
       "challenge": "Improve the robustness of the data ingestion pipeline for legacy form submissions.",
       "incident": "A user's pension form submission fails with the error 'EPOL - VXML Produced could not be saved', indicating an issue with XML generation from user-provided data.",
@@ -10,9 +12,11 @@
     }
   },
   {
-    "technology": "Cybersecurity",
-    "role": "Security Analyst",
-    "environment": "Enterprise Network",
+    "inputs": {
+      "technology": "Cybersecurity",
+      "role": "Security Analyst",
+      "environment": "Enterprise Network"
+    },
     "scenario": {
       "challenge": "A new zero-day vulnerability has been announced for a critical external-facing library.",
       "incident": "Security scanners are flagging the production web server as vulnerable to a potential Remote Code Execution (RCE) attack.",
@@ -20,9 +24,11 @@
     }
   },
   {
-    "technology": "DevOps",
-    "role": "System Administrator",
-    "environment": "Cloud Infrastructure",
+    "inputs": {
+      "technology": "DevOps",
+      "role": "System Administrator",
+      "environment": "Cloud Infrastructure"
+    },
     "scenario": {
       "challenge": "The nightly build pipeline is failing intermittently, blocking new deployments.",
       "incident": "The CI/CD pipeline fails during the 'integration-test' stage with a 'database connection timeout' error.",
