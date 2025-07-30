@@ -67,3 +67,10 @@ curl --location 'http://localhost:8080/api/scenario' \
     "role": "Security Analyst",
     "environment": "Enterprise Network"
 }'
+```
+
+---
+
+Completed time:
+
+<img width="544" height="327" alt="Screenshot 2025-07-30 at 15 21 26" src="https://github.com/user-attachments/assets/360de661-55c4-486e-a563-bf2aebd7626f" />
